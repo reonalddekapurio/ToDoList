@@ -17,7 +17,8 @@ TypeScriptの勉強のために作成しました<br/>
 
 <img width="1470" height="956" alt="スクリーンショット 2025-09-15 22 23 45" src="https://github.com/user-attachments/assets/e8bff949-0c0c-48bd-b0bf-e5f793b06a97" />
 
-##　機能
+## 機能
+
 - 入力欄に文字を入れて「追加」を押すと、新しい Todo がリストに追加される
 - 削除ボタンでタスクの削除
 - チェックボックスによる完了状態への切り替えで文字に取り消し線がつく

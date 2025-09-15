@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 超簡易Todoアプリ
 
-## Getting Started
+## 概要
+TypeScriptの勉強のために作成しました<br/>
+制作期間　1日
 
-First, run the development server:
+## 技術スタック
+- Next.js
+- TypeScript
+- TailwindCSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## アプリ画面
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1470" height="956" alt="スクリーンショット 2025-09-15 22 21 49" src="https://github.com/user-attachments/assets/7ba0479c-270a-4baf-82d3-880bdacaf9c0" />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="1470" height="956" alt="スクリーンショット 2025-09-15 22 22 41" src="https://github.com/user-attachments/assets/35f885c5-fa33-4126-bcb6-1264cb06cd90" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="1470" height="956" alt="スクリーンショット 2025-09-15 22 23 45" src="https://github.com/user-attachments/assets/e8bff949-0c0c-48bd-b0bf-e5f793b06a97" />
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##　機能
+- 入力欄に文字を入れて「追加」を押すと、新しい Todo がリストに追加される
+- 削除ボタンでタスクの削除
+- チェックボックスによる完了状態への切り替えで文字に取り消し線がつく
+- タスクがブラウザに保存される（永続化）
